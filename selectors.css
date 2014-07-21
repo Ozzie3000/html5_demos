@@ -1,0 +1,16 @@
+/* selectors    */
+/* effect any paragraph that has a div as its parent  */
+/* div > p {color: green;}    */
+
+/* no law of transitivity here.  only next of kin relationships so this will not work  */
+/* body > div  {color: blue}   */
+/* for some reason this works.  I don't know why, trying to set up a daisy chain  */
+/* body > div > p {color: blue}      */
+
+
+/*   + effect the 2nd element when it follows the 1st. they must have same parent.  */
+/* p.buck + p {color: cyan}    */
+
+
+/*   ~  keeps the rule going even if there is something like a span breaking it up  */
+p.buck ~ p {color: purple}
