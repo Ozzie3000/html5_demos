@@ -1,0 +1,29 @@
+/* in old css we could have Ids */
+/* targeting ids */
+#tuna{color:red;}
+
+/* targeting classes */
+.bluefin{color:cyan;}
+
+/* targeting paragraph element for given class */
+p.tuna{color:orange;}
+
+/* targeting things with attributes.  attribute selector */
+/* p[name]{color:purple;}  */
+
+/* targeting things with attributes.  attribute selector w/ specific value */
+p[name*="specific"]{color:green;}
+
+p[name="spe"]{color:#EA0CC9;}
+
+
+a[name*=bf]{color: cyan;}
+
+a[name*=clear]{color: transparent;}
+
+
+/* using regex; regular expressions. */
+/* ^ means start with, $ ends with, * value is present anywhere   */
+p[name^="bacon"]{color:yellow;}
+p[name$="bacon"]{color:#00FF00;}
+p[name*="bacon"]{color:#CCEEFF;}
