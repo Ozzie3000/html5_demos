@@ -1,0 +1,7 @@
+/*  negation psuedo class.  What we want to exclude form css rules   */
+
+/* this will change all font to blue  */
+* {color: blue;}
+
+/* this will exclude from overall effect   */
+:not(.oz){color: red;}
