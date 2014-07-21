@@ -1,0 +1,9 @@
+
+/* a way to apply formulas to styling */
+
+p:nth-child(odd){color:green;}
+p:nth-child(even){color:blue;}
+p:nth-child(8){color:red;}
+
+
+p:nth-child(4n+1){color:cyan;}
