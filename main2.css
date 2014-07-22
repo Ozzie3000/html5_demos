@@ -45,4 +45,15 @@ body{
 }
 #main_section{
 	border: 1px solid blue;
+	-webkit-box-flex: 1;
+	margin: 20px;
+	padding: 20px;
+}
+#side_news{
+	border: 1px solid red;
+	-webkit-box-flex: 0;
+	width: 220px;
+	margin: 20px 0px;
+	padding: 30px;
+	background: #66CCCC;
 }
