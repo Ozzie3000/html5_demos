@@ -5,42 +5,49 @@
 #parent1{
 	border: 2px solid blue;
 	display: -webkit-box;
-	width: 800px;
+	/*  width: 800px;  changing to flex */
+	max-width: 1000px;
+	height: 300px;
 	-webkit-orient: horizontal;
 	-webkit-box-pack: center;
+	-webkit-box-align: stretch;
 }
 #child1{
 	border: 2px solid red;
 	background: green;
 	padding: 20px;
 	margin: 15px;
-	width: 80px;
-	-webkit-box-ordinal-group: 2;
+	/*  height: 100px;  */
+	/*  width: 80px;  no longer needed because of flex: 1  */
+	-webkit-box-flex: 1;
 }
 #child2{
 	border: 2px solid red;
 	background: yellow;
 	padding: 20px;
 	margin: 15px;
-	width: 80px;
-	-webkit-box-ordinal-group: 3;
+	height: 100px;
+	/*  width: 80px;  no longer needed because of flex: 1  */
+	-webkit-box-flex: 2;
 }
 #child3{
 	border: 2px solid red;
 	background: cyan;
 	padding: 20px;
 	margin: 15px;
-	width: 80px;
-	-webkit-box-ordinal-group: 4;
+	height: 100px;
+	/*  width: 80px;  no longer needed because of flex: 1  */
+	-webkit-box-flex: 1;
 }
 #child4{
 	border: 2px solid red;
 	background: orange;
 	padding: 20px;
 	margin: 15px;
-	width: 80px;
-	-webkit-box-ordinal-group: 1;
+	height: 100px;
+	/*  width: 80px;  no longer needed because of flex: 1  */
+	-webkit-box-flex: 1;
 }
 
 
-/*  <!--   18   -->    */
+/*  <!--   18-19   -->    */
