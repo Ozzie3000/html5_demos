@@ -1,1 +1,9 @@
-main3.css
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#parent1{
+	border: 2px solid blue;
+	display: -webkit-box;
+	
+}
