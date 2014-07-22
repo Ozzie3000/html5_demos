@@ -29,9 +29,10 @@ body{
 	padding: 20px;
 }
 #top_menu{
-	border: red;
+	border: 2px solid red;
 	background: blue;
 	color: white;
+	padding-left: 10px
 }
 #top_menu li{
 	display: inline-block;
@@ -56,9 +57,22 @@ body{
 	margin: 20px 0px;
 	padding: 30px;
 	background: #66CCCC;
+	text-align: left;
 }
 #the_footer{
 	text-align: center;
 	padding: 20px;
 	border-top: 2px solid green;
 }
+article{
+	background: #FFFBCC;
+	border: 1px solid red;
+	padding: 20px;
+	margin-bottom: 25px;
+}
+article footer{
+	text-align: right;
+}
+
+
+/*  <!--   9-13, 14-16   -->    */
