@@ -5,13 +5,16 @@
 #parent1{
 	border: 2px solid blue;
 	display: -webkit-box;
+	width: 800px;
 	-webkit-orient: horizontal;
+	-webkit-box-pack: center;
 }
 #child1{
 	border: 2px solid red;
 	background: green;
 	padding: 20px;
 	margin: 15px;
+	width: 80px;
 	-webkit-box-ordinal-group: 2;
 }
 #child2{
@@ -19,6 +22,7 @@
 	background: yellow;
 	padding: 20px;
 	margin: 15px;
+	width: 80px;
 	-webkit-box-ordinal-group: 3;
 }
 #child3{
@@ -26,6 +30,7 @@
 	background: cyan;
 	padding: 20px;
 	margin: 15px;
+	width: 80px;
 	-webkit-box-ordinal-group: 4;
 }
 #child4{
@@ -33,6 +38,7 @@
 	background: orange;
 	padding: 20px;
 	margin: 15px;
+	width: 80px;
 	-webkit-box-ordinal-group: 1;
 }
 
