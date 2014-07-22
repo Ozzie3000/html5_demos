@@ -6,6 +6,7 @@
 	border: 2px solid blue;
 	display: -webkit-box;
 	-webkit-orient: horizontal;
+	-webkit-box-direction: reverse;
 }
 #child1{
 	border: 2px solid red;
