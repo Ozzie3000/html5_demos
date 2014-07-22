@@ -16,3 +16,15 @@ body{
 	display: -webkit-box;
 	-webkit-box-pack: center;
 }
+#big_wrapper{
+	max-width: 1000px
+	margin: 20px 0px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+}
+#top_header{
+	background: yellow;
+	border: 3px solid black;
+	padding: 20px;
+}
