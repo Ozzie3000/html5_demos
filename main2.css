@@ -39,3 +39,10 @@ body{
 	padding: 5px;
 	font: bold 14px Tahoma;
 }
+#new_div {
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+}
+#main_section{
+	border: 1px solid blue;
+}
