@@ -1,0 +1,36 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#parent1{
+	border: 2px solid blue;
+	display: -webkit-box;
+	-webkit-orient: horizontal;
+}
+#child1{
+	border: 2px solid red;
+	background: green;
+	padding: 20px;
+	margin: 15px;
+}
+#child2{
+	border: 2px solid red;
+	background: yellow;
+	padding: 20px;
+	margin: 15px;
+}
+#child3{
+	border: 2px solid red;
+	background: cyan;
+	padding: 20px;
+	margin: 15px;
+}
+#child4{
+	border: 2px solid red;
+	background: orange;
+	padding: 20px;
+	margin: 15px;
+}
+
+
+/*  <!--   18   -->    */
