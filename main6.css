@@ -9,7 +9,8 @@ body{
 	text-align: center;
 	border: 3px solid blue;
 	/*  background: orange;  */
-	background: -webkit-linear-gradient(top, black,white);
+	/*  background: -webkit-linear-gradient(top, black,white);   */
+	background: -webkit-linear-gradient(45deg, black,white);
 	-webkit-border-radius:60px;
 	-webkit-box-shadow:rgb(100,100,100) 15px 15px 9px;
 	 /* inset    will make it look like it's inside  */}
