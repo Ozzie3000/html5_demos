@@ -14,4 +14,11 @@ body{
 	 /* inset    will make it look like it's inside  */}
 #text{
 	font: bold 30px Century Gothic;
+	text-shadow:rgb(100,100,100)5px 5px 5px;
 }
+
+
+
+
+
+/*   20-    */
