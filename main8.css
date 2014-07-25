@@ -55,7 +55,10 @@ body{
 	border: 3px solid blue;
 	background: yellow;
 	outline: 5px solid red;
-	-webkit-transform: scale(1.5,.75);  /*1st val strech along X, 2nd along Y   */
+	-webkit-transition: -webkit-transform 3s;
+}
+#box3:hover{
+	-webkit-transform: rotate(45deg)
 }
 #text3{
 	font: bold 30px Century Gothic;
