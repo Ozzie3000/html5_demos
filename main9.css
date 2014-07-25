@@ -1,1 +1,138 @@
-main9.css
+body{
+	text-align: center;
+}
+#box0{
+	display: block;
+	width: 500px;
+	margin: 50px auto;
+	padding: 15px;
+	text-align: center;
+	border: 5px solid blue;
+	background: yellow;
+}	
+#text0{
+	font: bold 30px Century Gothic;
+}
+#box1{
+	display: block;
+	margin: 150px auto;
+	color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	opacity: 0.6;
+	background: red;
+	width: 120px;
+	height: 75px;
+	-webkit-transition: -webkit-transform 2s, opacity 2s, background 2s, width 2s, height 2s;
+}
+#box1:hover{
+	-webkit-transform: rotate(360deg);
+}
+#text1{
+	font: bold 30px Century Gothic;
+}
+#box2{
+	display: block;
+	width: 500px;
+	margin: 50px auto;
+	padding: 15px;
+	text-align: center;
+	border: 3px solid blue;
+	background: yellow;
+	outline: 5px solid red;
+	-webkit-transform: scale(1.5);
+}
+#box2:hover{
+	-webkit-transform:translate(60px,15px) rotate(30deg) scale(.5) skew(15deg) scale(-1,1);
+}
+#text2{
+	font: bold 30px Century Gothic;
+}
+#box3{
+	display: block;
+	width: 500px;
+	margin: 10px auto;
+	padding: 15px;
+	text-align: center;
+	border: 3px solid blue;
+	background: yellow;
+	outline: 5px solid red;
+	-webkit-transition: -webkit-transform 3s;
+}
+#box3:hover{
+	-webkit-transform: rotate(45deg)
+}
+#text3{
+	font: bold 30px Century Gothic;
+}
+#box4{
+	display: block;
+	width: 500px;
+	margin: 50px auto;
+	padding: 7px;
+	text-align: center;
+	border: 3px solid blue;
+	background: yellow;
+	outline: 5px solid red;
+	-webkit-transform: scale(-1, 1);  /* writes chars backwards  */
+}
+#text4{
+	font: bold 30px Century Gothic;
+}
+#box5{
+	display: block;
+	width: 500px;
+	margin: 50px auto;
+	padding: 7px;
+	text-align: center;
+	border: 3px solid blue;
+	background: yellow;
+	outline: 5px solid red;
+	-webkit-transform: rotate(-8deg);  /* rotates box  */
+}
+#text5{
+	font: bold 30px Century Gothic;
+}
+#box6{
+	display: block;
+	width: 500px;
+	margin: 50px auto;
+	padding: 7px;
+	text-align: center;
+	border: 3px solid blue;
+	background: yellow;
+	outline: 5px solid red;
+	-webkit-transform: skew(30deg);  /* slants box and text */
+}
+#text6{
+	font: bold 30px Century Gothic;
+}
+#box7{
+	display: block;
+	width: 500px;
+	margin: 50px auto;
+	padding: 7px;
+	text-align: center;
+	border: 3px solid blue;
+	background: yellow;
+	outline: 5px solid red;
+	-webkit-transform: translate(60px,15px);  /* move around  X,Y */
+}
+#text7{
+	font: bold 30px Century Gothic;
+}
+#box8{
+	display: block;
+	width: 500px;
+	margin: 50px auto;
+	padding: 7px;
+	text-align: center;
+	border: 3px solid blue;
+	background: yellow;
+	outline: 5px solid red;
+	-webkit-transform: translate(60px,15px) rotate(30deg) scale(.5) skew(15deg) scale(-1,1); 
+	 /* write inline to add more than 1 effect*/
+}
+#text8{
+	font: bold 30px Century Gothic;
+}
+/*   24- animations   */
