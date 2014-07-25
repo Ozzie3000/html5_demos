@@ -26,6 +26,11 @@ body{
 }
 #box1:hover{
 	-webkit-transform: rotate(360deg);
+	opacity: 1;
+	background: #1ec7e6;
+	width: 450px;
+	height: 100px;
+	
 }
 #text1{
 	font: bold 30px Century Gothic;
