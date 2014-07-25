@@ -98,4 +98,19 @@ body{
 #text7{
 	font: bold 30px Century Gothic;
 }
+#box8{
+	display: block;
+	width: 500px;
+	margin: 50px auto;
+	padding: 7px;
+	text-align: center;
+	border: 3px solid blue;
+	background: yellow;
+	outline: 5px solid red;
+	-webkit-transform: translate(60px,15px) rotate(30deg) scale(.5) skew(15deg) scale(-1,1); 
+	 /* write inline to add more than 1 effect*/
+}
+#text8{
+	font: bold 30px Century Gothic;
+}
 /*   22-    */
