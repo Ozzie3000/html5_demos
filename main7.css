@@ -42,5 +42,17 @@ body{
 #text3{
 	font: bold 30px Century Gothic;
 }
-
+#box4{
+	display: block;
+	width: 500px;
+	margin: 50px auto;
+	padding: 7px;
+	text-align: center;
+	border: 3px solid blue;
+	background: yellow;
+	outline: 5px solid red;
+	-webkit-transform: scale(-1, 1);  /* writes chars backwards  */
+}
+#text4{
+	font: bold 30px Century Gothic;
 /*   22-    */
