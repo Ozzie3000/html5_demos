@@ -55,4 +55,34 @@ body{
 }
 #text4{
 	font: bold 30px Century Gothic;
+}
+#box5{
+	display: block;
+	width: 500px;
+	margin: 50px auto;
+	padding: 7px;
+	text-align: center;
+	border: 3px solid blue;
+	background: yellow;
+	outline: 5px solid red;
+	-webkit-transform: rotate(-8deg);  /* rotates box  */
+}
+#text5{
+	font: bold 30px Century Gothic;
+}
+#box6{
+	display: block;
+	width: 500px;
+	margin: 50px auto;
+	padding: 7px;
+	text-align: center;
+	border: 3px solid blue;
+	background: yellow;
+	outline: 5px solid red;
+	-webkit-transform: skew(30deg);  /* slants box and text */
+}
+#text6{
+	font: bold 30px Century Gothic;
+}
+
 /*   22-    */
