@@ -16,7 +16,7 @@ body{
 #box1{
 	display: block;
 	width: 500px;
-	margin: 50px auto;
+	margin: 60px auto;
 	padding: 15px;
 	text-align: center;
 	border: 3px solid blue;
@@ -39,6 +39,9 @@ body{
 	background: yellow;
 	outline: 5px solid red;
 	-webkit-transform: scale(1.5);
+}
+#box2:hover{
+	-webkit-transform:translate(60px,15px) rotate(30deg) scale(.5) skew(15deg) scale(-1,1);
 }
 #text2{
 	font: bold 30px Century Gothic;
