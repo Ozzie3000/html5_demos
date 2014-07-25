@@ -84,5 +84,18 @@ body{
 #text6{
 	font: bold 30px Century Gothic;
 }
-
+#box7{
+	display: block;
+	width: 500px;
+	margin: 50px auto;
+	padding: 7px;
+	text-align: center;
+	border: 3px solid blue;
+	background: yellow;
+	outline: 5px solid red;
+	-webkit-transform: translate(60px,15px);  /* move around  X,Y */
+}
+#text7{
+	font: bold 30px Century Gothic;
+}
 /*   22-    */
