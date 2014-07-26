@@ -32,12 +32,9 @@ function popup3 () {
 }
 
 
-
 //  window.onload=getStuff; used only for 1 function   //
 
 //  <body onload="getpisces(); getbovinae(); getavilae();">   obtrusive  //
-
-
 
 
 function addLoadEvent(func) {
