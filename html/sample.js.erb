@@ -1,0 +1,7 @@
+$(<% rfp_id = BSON::ObjectId.from_string(params[:id]) %>);
+$(<% rfp = User.where('rfps._id' => rfp_id).first.rfps.find(rfp_id) %>);
+$(<% rfp_test_url = rfp_url(rfp) %>);
+$(<% url = "#{rfp_test_url}.html" %>);
+$(<% conversion = Cloudconvert::Conversion.new %>);
+$(<% rfp_pdf = conversion.convert('html', 'pdf', url ) %>);
+$('#download-'+'<%= params[:index] %>').html('<%= link_to "Download .pdf", "http:" + rfp_pdf["output"]["url"], class: "btn btn-default", :onclick => "converting(#{params[:index]});" %>');
