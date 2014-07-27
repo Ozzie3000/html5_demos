@@ -1,7 +1,7 @@
-function function_name (argument) {
-	// body...
-	TagName=document.getElementsByTagName('')
-}
+// function function_name (argument) {   //
+	// body...// 
+//  TagName=document.getElementsByTagName('')   //
+//  }   //
 
 function doFirst (){
 	barSize=600;
@@ -23,7 +23,17 @@ function playOrPause(){
 	}else{
 		svid.play();
 		plB.innerHTML='Pause';
-		updateBar=setInterval( , )
-	
+		updateBar=setInterval(update, 500);
+		}
+}
+
+function update(){
+	if(!svid.ended){
+		var current_size=parseInt(svid.currentTime*barSize/svid.duration);
+		prB.style.width=current_size+'px';
+	}else{
+		prB.style.width='0px';
+		plB.innerHTML='Play';
+		window.clearInterval(updateBar);
 	}
 }
