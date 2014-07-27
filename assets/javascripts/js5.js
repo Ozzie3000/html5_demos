@@ -11,4 +11,6 @@ function doFirst (){
 	progressBar=document.getElementsById('progressBar');
 
 	playButton.addEventListener('click','playOrPause','false');
+	defaultBar.addEventListener('click','clickedBar','false');
+
 }
