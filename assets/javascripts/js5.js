@@ -10,5 +10,5 @@ function doFirst (){
 	defaultBar=document.getElementsById('defaultBar');
 	progressBar=document.getElementsById('progressBar');
 
-	playButton.addEventListener('','','');
+	playButton.addEventListener('click','playOrPause','false');
 }
