@@ -5,12 +5,25 @@ function function_name (argument) {
 
 function doFirst (){
 	barSize=600;
-	samplevid=document.getElementsById('samplevid');
-	playButton=document.getElementsById('playButton');
-	defaultBar=document.getElementsById('defaultBar');
-	progressBar=document.getElementsById('progressBar');
+	svid=document.getElementsById('samplevid');
+	plB=document.getElementsById('playButton');
+	dB=document.getElementsById('defaultBar');
+	prB=document.getElementsById('progressBar');
 
 	playButton.addEventListener('click','playOrPause','false');
 	defaultBar.addEventListener('click','clickedBar','false');
 
+}
+
+function playOrPause(){
+	if(!svid.paused && !svid.ended){
+		svid.pause();
+		plB.innerHTML='Play';
+		window.clearInterval(updateBar);
+	}else{
+		svid.play();
+		plB.innerHTML='Pause';
+		updateBar=setInterval( , )
+	
+	}
 }
