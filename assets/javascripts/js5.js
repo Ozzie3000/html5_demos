@@ -37,3 +37,10 @@ function update(){
 		window.clearInterval(updateBar);
 	}
 }
+
+function clickedBar (e){
+	if(!svid.paused && !svid.ended){
+		var mouseX=e.pageX-bar.offsetLeft;
+		var newtime=mouseX*samplevid.duration/barSize;
+	}
+}
