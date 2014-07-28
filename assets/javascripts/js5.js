@@ -38,13 +38,24 @@ function update(){
 	}
 }
 
+// this allows progress bar to only be changed while vid is playing  //
+//	function clickedBar (e){
+//		if(!svid.paused && !svid.ended){
+//		var mouseX=e.pageX-dB.offsetLeft;
+//		var newtime=mouseX*svid.duration/barSize;
+//		svid.currentTime=newtime;
+//		prB.style.width=mouseX+'px';
+//		}
+//	}
+
+// lets you change progress bar while paused, played, ended  //
 function clickedBar (e){
-	if(!svid.paused && !svid.ended){
+	//if(!svid.paused && !svid.ended){//
 		var mouseX=e.pageX-dB.offsetLeft;
 		var newtime=mouseX*svid.duration/barSize;
 		svid.currentTime=newtime;
 		prB.style.width=mouseX+'px';
-	}
+	//}//
 }
 
 window.addEventListener('load', doFirst, false);
