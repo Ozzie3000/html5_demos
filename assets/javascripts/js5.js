@@ -5,13 +5,13 @@
 
 function doFirst (){
 	barSize=600;
-	svid=document.getElementsById('samplevid');
-	plB=document.getElementsById('playButton');
-	dB=document.getElementsById('defaultBar');
-	prB=document.getElementsById('progressBar');
+	svid=document.getElementById('samplevid');
+	plB=document.getElementById('playButton');
+	dB=document.getElementById('defaultBar');
+	prB=document.getElementById('progressBar');
 
-	playButton.addEventListener('click','playOrPause','false');
-	defaultBar.addEventListener('click','clickedBar','false');
+	playButton.addEventListener('click','playOrPause',false);
+	defaultBar.addEventListener('click','clickedBar',false);
 
 }
 
@@ -41,6 +41,10 @@ function update(){
 function clickedBar (e){
 	if(!svid.paused && !svid.ended){
 		var mouseX=e.pageX-bar.offsetLeft;
-		var newtime=mouseX*samplevid.duration/barSize;
+		var newtime=mouseX*svid.duration/barSize;
+		svid.currentTime=newtime;
+		prB.style.width=mouseX+'px';
 	}
 }
+
+window.addEventListener('load',doFirst,false);
