@@ -10,8 +10,8 @@ function doFirst (){
 	dB=document.getElementById('defaultBar');
 	prB=document.getElementById('progressBar');
 
-	playButton.addEventListener('click','playOrPause',false);
-	defaultBar.addEventListener('click','clickedBar',false);
+	plB.addEventListener('click', playOrPause, false);
+	dB.addEventListener('click', clickedBar, false);
 
 }
 
@@ -40,11 +40,14 @@ function update(){
 
 function clickedBar (e){
 	if(!svid.paused && !svid.ended){
-		var mouseX=e.pageX-bar.offsetLeft;
+		var mouseX=e.pageX-dB.offsetLeft;
 		var newtime=mouseX*svid.duration/barSize;
 		svid.currentTime=newtime;
 		prB.style.width=mouseX+'px';
 	}
 }
 
-window.addEventListener('load',doFirst,false);
+window.addEventListener('load', doFirst, false);
+
+
+// 28-34  different way of setting up videos  //
