@@ -26,4 +26,4 @@ a[name*=clear]{color: transparent;}
 /* ^ means start with, $ ends with, * value is present anywhere   */
 p[name^="bacon"]{color:yellow;}
 p[name$="bacon"]{color:#00FF00;}
-p[name*="bacon"]{color:#CCEEFF;}
+p[name*="bax"]{color:#CCEEFF;}
